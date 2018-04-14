@@ -1,0 +1,20 @@
+package MyTestPackage;
+
+public class MyTestMainClass {
+
+	public static void main(String[] args) {		
+		System.out.println("Hello");
+		
+		int rows, columns;
+		int[][] Employees = new int[100][50];
+		 
+		for (rows = 0; rows < 100 ; rows++) {
+			for (columns = 0; columns < 50; columns++) {
+				Employees[rows][columns] = rows + columns;
+				System.out.println(Employees[rows][columns]);
+			}
+		}
+
+	}
+
+}

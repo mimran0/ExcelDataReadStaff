@@ -1,0 +1,78 @@
+package MyTestPackage;
+
+public class MyTestMainClass {
+
+	public static void main(String[] args) {
+		System.out.println("Hello");
+
+		String[][] MyGarage = new String[6][7]; // Two dimensional array
+												// declaration.
+		// Array Initialization Starts here.
+		// Column one
+		MyGarage[0][0] = "Make";
+		MyGarage[1][0] = "Honda";
+		MyGarage[2][0] = "Ford";
+		MyGarage[3][0] = "Hyundai";
+		MyGarage[4][0] = "Mazda";
+		MyGarage[5][0] = "Subaru";
+
+		// Column Tow
+		MyGarage[0][1] = "Model";
+		MyGarage[1][1] = "CRV";
+		MyGarage[2][1] = "Escape";
+		MyGarage[3][1] = "Sante Fe";
+		MyGarage[4][1] = "CX-5";
+		MyGarage[5][1] = "Forester";
+
+		// Column Three
+		MyGarage[0][2] = "Color";
+		MyGarage[1][2] = "Green";
+		MyGarage[2][2] = "Red";
+		MyGarage[3][2] = "Grey";
+		MyGarage[4][2] = "Red";
+		MyGarage[5][2] = "Blue";
+
+		// Column Four
+		MyGarage[0][3] = "Year";
+		MyGarage[1][3] = "2016";
+		MyGarage[2][3] = "2017";
+		MyGarage[3][3] = "2016";
+		MyGarage[4][3] = "2017";
+		MyGarage[5][3] = "2016";
+
+		// Column Five
+		MyGarage[0][4] = "Price";
+		MyGarage[1][4] = "$23,845";
+		MyGarage[2][4] = "$23,590";
+		MyGarage[3][4] = "$24,950";
+		MyGarage[4][4] = "$21,795";
+		MyGarage[5][4] = "$22,395";
+
+		// Column Six
+		MyGarage[0][5] = "Tcc Rating";
+		MyGarage[1][5] = "8";
+		MyGarage[2][5] = "7.8";
+		MyGarage[3][5] = "8";
+		MyGarage[4][5] = "8";
+		MyGarage[5][5] = "8.4";
+
+		// Column Seven
+		MyGarage[0][6] = "Hwy MPG";
+		MyGarage[1][6] = "33";
+		MyGarage[2][6] = "32";
+		MyGarage[3][6] = "27";
+		MyGarage[4][6] = "35";
+		MyGarage[5][6] = "32";
+
+		// Array Initialization ends here.
+		// System.out.println("Row Number is "+MyGarage.length);
+
+		for (int i = 0; i < 6; i++) {
+			System.out.println("*****************Row Number is "+i);
+			for (int j = 0; j < 7; j++) {
+				System.out.println(MyGarage[i][j]);
+			}
+		}
+	}
+
+}
