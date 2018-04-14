@@ -42,8 +42,7 @@ public class MyCellDataRead3 {
 	// Input: Row Number, Column Number
 	// Output: Specific cell value
 	// Drawback: Excel FilePath is hard Coded.
-	// Required jar files/ dependency list: poi-ooxml-3.17,
-	// poi-ooxml-schemas-3.17, xmlbeans-2.6.0,
+	// jar files: poi-ooxml-3.17, poi-ooxml-schemas-3.17, xmlbeans-2.6.0,
 	// poi-3.17, commons-collections4-4.1
 	public String ReadCellData(int vRow, int vColumn) {
 		String Result = null;
@@ -67,14 +66,6 @@ public class MyCellDataRead3 {
 	}
 
 	// Mothod Overloading (updated on 04/14/2018)
-	// Developed by md shahajada imran.
-	// This function/method will return specific Excel Cell data using row
-	// number, column number, Excel Path.
-	// Input: Row Number, Column Number, Excel Path
-	// Output: Specific cell value
-	// Required jar files/ dependency list: poi-ooxml-3.17,
-	// poi-ooxml-schemas-3.17, xmlbeans-2.6.0,
-	// poi-3.17, commons-collections4-4.1
 	public String ReadCellData(int vRow, int vColumn, String vExcelPath) {
 		String Result = null;
 		Workbook wb = null;
